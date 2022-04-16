@@ -4,43 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube-player-page</title>
     <link rel="stylesheet" href="youtube.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>YouTube's-player-page</title>
+    <script defer src="/your-path-to-fontawesome/js/all.js"></script>
 </head>
 <body>
-        <section class="navbar">
-        <div>
-            <button class="menu">
-                <div class="l"></div>
-                <div class="l"></div>
-                <div class="l"></div>
-            </button>
-            
-        </div>
-              
-        <ul>
-            <li class="logo"><a href="#"><img src="/images/logo.png" alt="YouTube"></a></li>
-            <li><input class="box" type="text" placeholder="Search..">
-            <button class="search">Search</li>
-            <li><a href="#">voice</a> </li>
-            <li><a href="#">create</a></li>
-            <li><a href="#">YouTube apps</a></li>
-            <li><a href="#">notification</a></li>
-        </ul>
+    <section class="nav">
 
-    </section>
-    <section class="main">
-        <div class="c-video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/e1SVonFKt34?start=60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="navbar">
+            <ul>
+                <li><input type="text" placeholder="Search">
+                    <button type="button">Search
+                    </button>                  
+                   
+                </li>
+                <li><a href="#">voice</a></li>
+                <li><a href="#">create</a></li>
+                <li> <a href="#">apps</a></li>
+            </ul>
             
-        </div>
-        <div style="background-color: grey; width: 50%;" class="preview">
-
         </div>
 
     </section>
+    <section class="c-video">
+        <div class="preview">
+            <ul>
+                <li><a href="#">preview</a></li>
+            </ul>
+            <img src="/images/thumb1.jpg" alt="image">
+            <img src="/images/thumb2.jpg" alt="image">
+            <img src="/images/thumb3.jpg" alt="image">
+        </div>
+        <div class="videos">
+            <iframe class="video" width="600" height="480" src="https://www.youtube.com/embed/e1SVonFKt34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+
+    </section>
+    <div class="description">
+        <h2>Must Watch New Funny Video 2021_Top New Comedy Video 2021</h2>
+        <p>194,717,599 views  Feb 24, 2021  Must Watch New Funny Video 2021_Top New Comedy Video  </p>
+    </div>
     
-
 </body>
 </html>
